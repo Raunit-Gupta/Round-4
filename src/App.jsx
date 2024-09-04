@@ -34,7 +34,7 @@ const App = () => {
     <>     
     {/* <CircularDiv/> */}
       <div className=' h-screen w-full bg-black overflow-x-hidden '>
-      <LandingPage/> 
+      {/* <LandingPage/>  */}
       <Navbar/>
       <About/>
       <ImageContainer/>

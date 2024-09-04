@@ -116,14 +116,14 @@ const HorizontalSlider = () => {
             ))}
             <div  className="h-[60vh] w-[60vh] bg-[#000] rounded-full flex justify-center items-center">
               <div className=" h-1/2 w-full  flex justify-center flex-col items-center gap-2 ">
-                <h1 className=" text-4xl">Our Collaborators</h1>
-                <h1 className=" text-3xl">loving creating art with us</h1>
+                <h1 className=" text-4xl font-['aeronaut']">Our Collaborators</h1>
+                <h1 className=" text-3xl font-['aeronaut']">loving creating art with us</h1>
                 <div className=" w-full flex justify-center items-center gap-10 text-lg ">
-                  <h1 className=" flex items-center text-sm">
+                  <h1 className=" flex items-center text-sm font-['sussi']">
                     <FiPlus />
                     800+ CLIENTS
                   </h1>
-                  <h1 className=" flex items-center text-sm">
+                  <h1 className=" flex items-center text-sm font-['sussi']">
                     <FiPlus />
                     100+ PROJECTS
                   </h1>
