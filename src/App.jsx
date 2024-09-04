@@ -33,7 +33,7 @@ const App = () => {
   return (
     <>     
     {/* <CircularDiv/> */}
-      <div className=' h-screen w-full bg-black overflow-x-hidden '>
+      <div className=' h-screen w-full bg-black '>
       <LandingPage/> 
       <Navbar/>
       <About/>
