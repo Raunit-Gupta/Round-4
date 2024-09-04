@@ -7,26 +7,27 @@ const About = () => {
   const data = [
     {
       title: "Up to 10X Faster",
-      desc: "Try Photoshop (beta)’s new Generative Fill for richer, lifelike images with unmatched control.",
+      desc: "Experience Photoshop (beta)’s revolutionary Generative Fill feature.",
     },
     {
-      title: "Up to 10X Faster",
-      desc: "Create high-quality images with the Firefly Image 3 Model, offering improved composition, ",
+      title: "Create Stunning Visuals",
+      desc: "Generate high-quality images in an instant with Firefly Image 3 Model. ",
     },
     {
-      title: "Up to 10X Faster",
-      desc: "Use Generative Shape Fill to quickly fill vector outlines and match your artwork’s style.",
+      title: "Generative Shape Fill",
+      desc: "Effortlessly fill vector outlines with Firefly’s Generative Shape Fill style while saving time.",
     },
   ];
+  
   return (
     <>
     
       <div className="  h-screen w-full flex items-center justify-center flex-col  text-white bg-black text-center px-[8vw] gap-10  max-sm:px-2 ">
       <Paragraph phrases={["Up to 10X Faster"]} />
       {/* <Paragraph phrases={["Manufacturing measured", "in weeks, not months"]} /> */}
-      <TextIntersectionObserver children={["Manufacturing measured,", " in weeks, not months"]} className={"text-5xl"}  />
+      <TextIntersectionObserver children={["Adobe Firefly is a family of generative AI models created by Adobe, designed to help creatives produce high-quality content more efficiently."]} className={"text-5xl max-sm:text-xl"}  />
 
-      <div className="  h-[40vh]  max-sm:h-[50vh] w-full  sm:text-start   flex justify-between sm:items-center max-sm:flex-col  ">
+      <div className="  h-[40vh]  max-sm:h-[50vh] w-full  sm:text-start flex justify-between sm:items-center max-sm:flex-col  ">
         <Paragraph
           phrases={[
             "Effortlessly remove background ",
@@ -34,7 +35,7 @@ const About = () => {
             "by Firefly AI to see only",
             " what you want",
           ]}
-          className={"text-3xl max-sm:text-lg max-sm:text-[5vw] max-sm:leading-[6vw]"}
+          className={"text-xl max-sm:text-lg max-sm:text-[5vw] max-sm:leading-[6vw]"}
         />
         <div className=" h-full w-[60%] max-sm:w-full  flex gap-5  max-sm:flex-wrap max-sm:pl-5 ">
           {data.map((item, index) => (

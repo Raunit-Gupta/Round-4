@@ -33,13 +33,12 @@ const App = () => {
   return (
     <>     
     {/* <CircularDiv/> */}
-      <div className=' h-screen w-full bg-black font-[Gilroy]'>
+      <div className=' h-screen w-full bg-black overflow-x-hidden '>
       <LandingPage/> 
       <Navbar/>
       <About/>
       <ImageContainer/>
       <HorizontalSlider/>
-        {/* <MomentumHorizontalCard/> */}
       <Pricing/>
       <WhyTrustUs/>
       <Footer/>

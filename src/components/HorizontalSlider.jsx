@@ -121,18 +121,18 @@ const HorizontalSlider = () => {
                 <div className=" w-full flex justify-center items-center gap-10 text-lg ">
                   <h1 className=" flex items-center text-sm">
                     <FiPlus />
-                    800M VIEWS
+                    800+ CLIENTS
                   </h1>
                   <h1 className=" flex items-center text-sm">
                     <FiPlus />
-                    100 PROJECTS
+                    100+ PROJECTS
                   </h1>
                 </div>
                 <Button
                 text={"Explore More"}
                 p={"group-hover:text-[#000] "}
                 circ={"bg-white"}
-                customclass={` w-fit mx-auto mt-[10vh] max-sm:mt-0 bg-black border-[1px]`}
+                customclass={` w-fit mx-auto  max-sm:mt-0 bg-black border-[1px]`}
                 />
               </div>
             </div>

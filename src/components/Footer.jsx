@@ -192,7 +192,7 @@ const Footer = () => {
                     </h1>
                     <div className="pt-10 flex flex-col text-sm  max-lg:text-xl max-md:text-lg  gap-4">
                       {section.links.map((link, idx) => (
-                       <NavLinkAnimation>{link.name}</NavLinkAnimation>
+                       <NavLinkAnimation key={idx}>{link.name}</NavLinkAnimation>
                       ))}
                     </div>
                   </div>

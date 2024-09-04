@@ -10,7 +10,6 @@ const NavLinkAnimation = ({ children , className }) => {
   };
 
   const chars = [...children];
-  console.log(chars);
   
 
   return (
