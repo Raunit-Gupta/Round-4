@@ -75,7 +75,6 @@ const Pricing = () => {
                 <Paragraph phrases={[item.prices]} className={` text-2xl `} />
                 <h1 className=" text-xs mb-[.2vw]">{item.validity}</h1>
               </div>
-
               <Paragraph
                 phrases={item.desc}
                 className={"text-sm font-['sussi'] "}
